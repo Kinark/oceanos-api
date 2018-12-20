@@ -17,6 +17,11 @@ const ProductSchema = new mongoose.Schema({
    price: {
       type: Number,
       required: true
+   },
+   needsKitchen: {
+      type: Boolean,
+      required: false,
+      default: false
    }
 });
 
